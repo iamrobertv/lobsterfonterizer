@@ -26,7 +26,7 @@ Of course not. Designers LOVE this font.
 
 == Future Versions ==
 
-
+I plan on adding a menu to select other awesome fonts. Your designer will love you for saving him the time of choosing a font.
 
 == Changelog ==
 
