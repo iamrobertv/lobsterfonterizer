@@ -31,4 +31,4 @@ I plan on adding a menu to select other awesome fonts. Your designer will love y
 == Changelog ==
 
 = 0.5 =
-This is the intial release.
+* This is the intial release.
