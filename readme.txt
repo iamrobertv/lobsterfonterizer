@@ -1,5 +1,5 @@
 === Lobsterfonterizer ===
-Contributors: iamrobertv
+Contributors: iamrobertv, weswilson, warmwaffles, vluther
 Site: http://iamrobertv.com
 Tags: fonts, lobster, design foul
 Requires at least: 3.0
