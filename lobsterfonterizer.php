@@ -27,7 +27,7 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 */
 
 
-// Do the damn thing.
+// The code below does the damn thing.
 
 function lobsterfonterizer () {
 
