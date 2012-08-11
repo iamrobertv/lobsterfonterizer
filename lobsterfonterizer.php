@@ -4,7 +4,7 @@
 Plugin Name: Lobsterfonterizer
 Plugin URI: http://iamrobertv.com
 Description: This plugin does all the hard work of choosings fonts for you. It just uses Lobster for everything.
-Version: 0.5
+Version: 0.6
 Author: Roberto Villarreal
 Author URI: http://iamrobertv.com
 License: WTFPL
@@ -26,12 +26,23 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 0. You just DO WHAT THE FUCK YOU WANT TO. 
 */
 
+// Include a few things
+
+include('lobsterfonterizer-admin.php');
+
+// Grab plugin options from options table
+
+$lobsterfonterizer_options = get_option('lobsterfonterizer_settings');
 
 // The code below does the damn thing.
 
 function lobsterfonterizer () {
 
-	wp_enqueue_style('lobsterfonterizer', plugin_dir_url( __FILE__ ) . 'lobsterfonterizer.css');
+	global $lobsterfonterizer_options;
+
+	if($lobsterfonterizer_options[enabled]){
+		wp_enqueue_style('lobsterfonterizer', plugin_dir_url( __FILE__ ) . 'lobsterfonterizer.css');
+	}
 
 }
 

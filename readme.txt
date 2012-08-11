@@ -4,7 +4,7 @@ Site: http://iamrobertv.com
 Tags: fonts, lobster, design foul
 Requires at least: 3.0
 Tested up to: 3.4
-Stable tag: 0.5
+Stable tag: 0.6
 License: WTFPL
 
 == Description ==
@@ -14,7 +14,9 @@ This plugin does all the hard work of choosings fonts for you. It just uses Lobs
 == Installation ==
 
 1. Upload the plugin to your site and activate it.
-2. Bask in the lobster-ness.
+2. Navigate to Appearance > Lobsterfonterize.
+3. Enable Lobsterfonterification.
+4. Bask in the Lobster-ness.
 
 == Frequently Asked Questions ==
 
@@ -29,6 +31,9 @@ Of course not. Designers LOVE this font.
 I plan on adding a menu to select other awesome fonts. Your designer will love you for saving him/her from having to spend time carefully choosing a font.
 
 == Changelog ==
+
+= 0.6 =
+* Added admin menu with option to enable/disable Lobsterfonterification while plugin is active.
 
 = 0.5 =
 * This is the intial release.
